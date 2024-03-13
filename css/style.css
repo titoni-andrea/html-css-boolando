@@ -125,6 +125,7 @@ header {
 
 .prz-sconto {
     color: var(--rosso-sconto);
+    font-weight: bold;
 }
 
 .prz-intero {
