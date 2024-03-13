@@ -142,6 +142,8 @@ footer {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ragione-sociale {
@@ -159,4 +161,17 @@ footer {
 .pag-legali a{
     color: white;
     text-decoration: none;
+}
+
+.social p {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.icone-social {
+    color: white;
+    display: flex;
+    gap: 6px;
+    font-size: 21px;
 }
