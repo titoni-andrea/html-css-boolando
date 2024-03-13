@@ -1,3 +1,7 @@
+:root {
+    --rosso-sconto: #E70203;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -10,7 +14,7 @@ body {
 
 header {
     background-color: #FF6801;
-    box-shadow: 0px 1px 8px rgb(88, 88, 88);
+    box-shadow: 0px 1px 5px rgb(88, 88, 88);
 }
 
 .nav-bar {
@@ -56,4 +60,74 @@ header {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: white;
+}
+
+.cont-prodotti {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prodotto {
+    margin-bottom: 50px;
+}
+
+.img-prodotto {
+    height: 555px;
+    width: 31%;
+    position: relative;
+}
+
+.img-prodotto img {
+    height: 100%;
+}
+
+.wishlist {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    left: 349px;
+    top: 8px;
+}
+
+.over-prodotto {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.sconto {
+    background-color: var(--rosso-sconto);
+    padding: 4px 8px 4px 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.sostenibilita {
+    background-color: #027503;
+    padding: 4px 8px 4px 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.info-prodotto {
+    padding-top: 4px;
+}
+
+.prezzo {
+    display: flex;
+    gap: 5px;
+}
+
+.prz-sconto {
+    color: var(--rosso-sconto);
+}
+
+.prz-intero {
+    text-decoration: line-through;
+    color: #222;
 }
