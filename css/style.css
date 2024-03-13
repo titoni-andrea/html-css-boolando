@@ -132,3 +132,31 @@ header {
     text-decoration: line-through;
     color: #222;
 }
+
+footer {
+    background-color: #191919;
+}
+
+.cont-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ragione-sociale {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pag-legali {
+    display: flex;
+    gap: 11px;
+}
+
+.pag-legali a{
+    color: white;
+    text-decoration: none;
+}
