@@ -1,3 +1,5 @@
+/* ------ GENERALE ------ */
+
 :root {
     --rosso-sconto: #E70203;
 }
@@ -11,6 +13,8 @@
 body {
     font-family: sans-serif;
 }
+
+/* ------ HEADER ------ */
 
 header {
     background-color: #FF6801;
@@ -65,6 +69,8 @@ header {
     color: white;
 }
 
+/* ------ CONTENUTO ------ */
+
 .cont-prodotti {
     width: 1200px;
     margin: 0 auto;
@@ -78,6 +84,7 @@ header {
     margin-bottom: 50px;
 }
 
+/* -- IMMAGINE PRODOTTO -- */
 .img-prodotto {
     height: 555px;
     width: 31%;
@@ -120,6 +127,7 @@ header {
     z-index: 3;
 }
 
+/* -- INFORMAZIONI PRODOTTO -- */
 .info-prodotto {
     padding-top: 4px;
 }
@@ -139,6 +147,8 @@ header {
     color: #222;
 }
 
+/* ------ FOOTER ------ */
+
 footer {
     background-color: #191919;
 }
@@ -152,6 +162,7 @@ footer {
     justify-content: space-between;
 }
 
+/* -- INFORMAZIONI LEGALI -- */
 .ragione-sociale {
     color: white;
     font-size: 17px;
@@ -169,6 +180,7 @@ footer {
     text-decoration: none;
 }
 
+/* -- SOCIAL -- */
 .social p {
     color: white;
     padding-bottom: 10px;
