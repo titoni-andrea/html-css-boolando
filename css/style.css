@@ -193,3 +193,7 @@ footer {
 .img-prodotto:hover img{
     z-index: 1;
 }
+
+.img-prodotto i:hover {
+    color: red;
+}
