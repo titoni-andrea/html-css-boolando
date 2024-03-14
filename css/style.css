@@ -1,4 +1,4 @@
-/* ------ GENERALE ------ */
+/* ---------------- GENERALE ---------------- */
 
 :root {
     --rosso-sconto: #E70203;
@@ -14,7 +14,7 @@ body {
     font-family: sans-serif;
 }
 
-/* ------ HEADER ------ */
+/* ---------------- HEADER ---------------- */
 
 header {
     background-color: #FF6801;
@@ -34,6 +34,7 @@ header {
     justify-content: space-between;
 }
 
+/* --- PAGINE SX NAVBAR --- */
 .link {
     width: 15%;
     display: flex;
@@ -47,6 +48,7 @@ header {
     color: white;
 }
 
+/* --- LOGO --- */
 .nav-logo {
     width: 70%;
     height: 100%;
@@ -54,6 +56,7 @@ header {
     justify-content: center;
 }
 
+/* --- ICONE DX NAVBAR --- */
 .icone-nav {
     width: 15%;
     display: flex;
@@ -69,7 +72,7 @@ header {
     color: white;
 }
 
-/* ------ CONTENUTO ------ */
+/* ---------------- CONTENUTO ---------------- */
 
 .cont-prodotti {
     width: 1200px;
@@ -84,7 +87,7 @@ header {
     margin-bottom: 50px;
 }
 
-/* -- IMMAGINE PRODOTTO -- */
+/* --- IMMAGINE PRODOTTO --- */
 .img-prodotto {
     height: 555px;
     width: 31%;
@@ -95,6 +98,7 @@ header {
     height: 100%;
 }
 
+/* --- ELEMENTI SOPRA IMG PRODOTTO --- */
 .wishlist {
     background-color: white;
     padding: 10px;
@@ -127,7 +131,7 @@ header {
     z-index: 3;
 }
 
-/* -- INFORMAZIONI PRODOTTO -- */
+/* --- INFORMAZIONI PRODOTTO --- */
 .info-prodotto {
     padding-top: 4px;
 }
@@ -147,7 +151,7 @@ header {
     color: #222;
 }
 
-/* ------ FOOTER ------ */
+/* ---------------- FOOTER ---------------- */
 
 footer {
     background-color: #191919;
@@ -162,7 +166,7 @@ footer {
     justify-content: space-between;
 }
 
-/* -- INFORMAZIONI LEGALI -- */
+/* --- INFORMAZIONI LEGALI --- */
 .ragione-sociale {
     color: white;
     font-size: 17px;
@@ -180,7 +184,7 @@ footer {
     text-decoration: none;
 }
 
-/* -- SOCIAL -- */
+/* --- SOCIAL --- */
 .social p {
     color: white;
     padding-bottom: 10px;
@@ -194,8 +198,9 @@ footer {
     font-size: 21px;
 }
 
-/* ------ HOVER ------ */
+/* ---------------- HOVER ---------------- */
 
+/* --- HOVER IMG --- */
 .img-hover {
     position: absolute;
     top: 0px;
@@ -206,6 +211,7 @@ footer {
     z-index: 1;
 }
 
+/* --- HOVER CUORE --- */
 .img-prodotto i:hover {
     color: red;
 }
